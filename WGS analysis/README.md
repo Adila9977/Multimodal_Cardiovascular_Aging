@@ -1,4 +1,4 @@
-<img width="1332" height="88" alt="image" src="https://github.com/user-attachments/assets/c06fd198-5ecd-44c7-89db-a4a685242b74" /># Whole-Genome Sequence Analysis of Coding and Noncoding Variants Associated with CAR
+# Whole-Genome Sequence Analysis of Coding and Noncoding Variants Associated with CAR
 
 This directory contains the scripts and selected results for the whole-genome sequence (WGS) analysis of cardiovascular age residuals (CARs) described in the manuscript **Integrating Multimodal Data and Genomics for a Comprehensive Assessment of Cardiovascular Aging and Its Impact**.
 
