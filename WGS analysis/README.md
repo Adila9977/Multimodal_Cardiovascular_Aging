@@ -30,7 +30,7 @@ The association analyses included 21,734 participants from the non-CVD and CVD c
 
 #### Script: <a href="Code/CardioAge_nullmodel.R">**CardioAge_nullmodel.R**</a>
 
-#### Input: CAR phenotype data, age, age squared, sex, the first 10 ancestry principal components, and the sparse GRM.
+#### Input: CardioAG, age, age squared, sex, the first 10 ancestry principal components, and the sparse GRM.
 
 #### Output: An RData file containing the fitted STAAR null model.
 
