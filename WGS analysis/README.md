@@ -24,7 +24,7 @@ See https://github.com/xihaoli/STAARpipeline-Tutorial and https://github.com/rou
 
 ## Association analysis using STAARpipeline
 
-The association analyses included 21,734 participants from the non-CVD and CVD cohorts with available multimodal cardiovascular phenotypes, WGS data, and covariates.
+The association analyses included 21,734 participants from the non-CVD and CVD cohorts with available multimodal cardiovascular aging phenotypes, WGS data, and covariates.
 
 ### Step 1: Fit the STAAR null model
 
