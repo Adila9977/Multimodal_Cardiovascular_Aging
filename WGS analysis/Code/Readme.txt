@@ -1,4 +1,4 @@
-############## Whole Genome Sequence (WGS) Analysis of Coding and Noncoding Variants Associated with CardioAG ########################
+############## Whole Genome Sequence (WGS) Analysis of Coding and Noncoding Variants Associated with CardioAG ##############
 
 #######Pre-step of association analysis using STAARpipeline
 (1) WGS data from 490,549 UK Biobank participants were processed using annotated Genomic Data Structure (aGDS) files generated from project VCF files (UK Biobank Field: 23374) via the vcf2agds toolkit.
