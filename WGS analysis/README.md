@@ -1,4 +1,4 @@
-# Whole-Genome Sequence Analysis of Coding and Noncoding Variants Associated with CAR
+<img width="1332" height="88" alt="image" src="https://github.com/user-attachments/assets/c06fd198-5ecd-44c7-89db-a4a685242b74" /># Whole-Genome Sequence Analysis of Coding and Noncoding Variants Associated with CAR
 
 This directory contains the scripts and selected results for the whole-genome sequence (WGS) analysis of cardiovascular age residuals (CARs) described in the manuscript **Integrating Multimodal Data and Genomics for a Comprehensive Assessment of Cardiovascular Aging and Its Impact**.
 
@@ -16,13 +16,13 @@ WGS data from 490,549 UK Biobank participants were processed using annotated Gen
 
 Variants were retained according to the quality-control criteria described in the manuscript, including the VCF FILTER label, GraphTyper AAscore, Hardy-Weinberg equilibrium test, and variant call rate.
 
-The aGDS generation scripts are not included in this repository.
+See https://github.com/drarwood/vcf2agds_overview and https://www.cell.com/cell-genomics/fulltext/S2666-979X(25)00265-4 for additional details.
 
 ### Generate sparse Genetic Relatedness Matrix (GRM)
 
 A sparse genetic relatedness matrix was generated using <a href="https://github.com/rounakdey/FastSparseGRM">**FastSparseGRM**</a> to account for population structure and sample relatedness in the linear mixed model.
 
-The sparse GRM generation scripts are not included in this repository.
+See https://github.com/xihaoli/STAARpipeline-Tutorial and https://github.com/rounakdey/FastSparseGRM for additional details.
 
 ## Association analysis using STAARpipeline
 
@@ -49,11 +49,11 @@ This script first adjusts CAR for age, age squared, sex, and the first 10 ancest
 This batch-mode script performs the following autosomal analyses using **STAARpipeline**:
 
 * Individual single-variant analysis for variants with minor allele count greater than or equal to 10. <br>
-* Gene-centric coding rare-variant analysis. <br>
-* Gene-centric noncoding rare-variant analysis for protein-coding genes. <br>
-* Gene-centric noncoding rare-variant analysis for ncRNA genes. <br>
+* Gene-centric coding analysis of protein coding genes for rare variants. <br>
+* Gene-centric noncoding-variants analysis of protein coding genes for rare variants. <br>
+* Gene-centric noncoding-variants analysis of ncRNA genes for rare variants. <br>
 
-Rare-variant set analyses were conducted for variants with minor allele frequency below 1%.
+Variant set analyses were conducted for variants with minor allele frequency below 1%.
 
 ## Summarization and visualization using STAARpipelineSummary
 
@@ -96,7 +96,7 @@ The <a href="Individual%20analysis%20results">**Individual analysis results**</a
 * Q-Q plot. <br>
 * A brief description of the result files. <br>
 
-Full genome-wide single-variant summary statistics will be deposited in the <a href="https://www.ebi.ac.uk/gwas/">**NHGRI-EBI GWAS Catalog**</a>.
+GWAS summary statistics will be deposited in the <a href="https://www.ebi.ac.uk/gwas/">**NHGRI-EBI GWAS Catalog**</a>.
 
 ## Data availability
 
