@@ -41,7 +41,8 @@ fullDat = merge(data,pcs,by="userId")
 gId <- get(load("/mnt/project/nullmodels/Data/Phenotype/sample_id/UKB_500K_WGS_sampleid.RData"))
 length(gId)
 
-## Remove missing 
+## Remove missing
+## CardioAG_corr: CardioAG after age-bias correction
 fullDatRed = fullDat[(fullDat$userId%in%gId)&!is.na(fullDat$CardioAG_corr)&!is.na(fullDat$PC1)&!is.na(fullDat$age)&!is.na(fullDat$sex),] 
 
 # 21734   114
@@ -49,7 +50,6 @@ dim(fullDatRed)
 
 
 ########## rank normal transformation
-##### CardioAG
 
 # run regression
 fullDatRed$CardioAG.resid <- resid(lm(CardioAG_corr ~ sex+age+age2+PC1+PC2+PC3+PC4+PC5+PC6+PC7+PC8+PC9+PC10, data = fullDatRed))
@@ -74,7 +74,6 @@ sample_id <- unlist(lapply(strsplit(colnames(sgrm),"_"),`[[`,1))
 colnames(sgrm) <- sample_id
 rownames(sgrm) <- sample_id
 
-##### CardioAG
 
 a <- Sys.time()
 ### fit null model
