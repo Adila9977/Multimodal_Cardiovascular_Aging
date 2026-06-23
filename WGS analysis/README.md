@@ -94,7 +94,7 @@ The <a href="Individual%20analysis%20results">**Individual analysis results**</a
 * Q-Q plot. <br>
 * A brief description of the result files. <br>
 
-GWAS summary statistics will be deposited in the <a href="https://www.ebi.ac.uk/gwas/">**NHGRI-EBI GWAS Catalog**</a>.
+GWAS summary statistics are deposited in the <a href="https://www.ebi.ac.uk/gwas/">**NHGRI-EBI GWAS Catalog**</a>.
 
 ## Data availability
 
