@@ -1,8 +1,6 @@
-# Whole-Genome Sequence Analysis of Coding and Noncoding Variants Associated with CAR
+# Whole-Genome Sequence Analysis of Coding and Noncoding Variants Associated with Cardiovascular Age Gap (CardioAG)
 
-This directory contains the scripts and selected results for the whole-genome sequence (WGS) analysis of cardiovascular age residuals (CARs) described in the manuscript **Integrating Multimodal Data and Genomics for a Comprehensive Assessment of Cardiovascular Aging and Its Impact**.
-
-The phenotype is referred to as **CAR** in the manuscript and as `CardioAge` or `CardioAG` in some analysis scripts.
+This directory contains the scripts and selected results for the whole-genome sequence (WGS) analysis of CardioAG described in the manuscript **Integrating Multimodal Data and Genomics for a Comprehensive Assessment of Cardiovascular Aging and Its Impact**.
 
 The software prerequisites, dependencies, and installation instructions can be found in the <a href="https://github.com/xihaoli/STAARpipeline">**STAARpipeline**</a>, <a href="https://github.com/xihaoli/STAARpipelineSummary">**STAARpipelineSummary**</a>, and <a href="https://github.com/li-lab-genetics/STAARpipeline-Tutorial">**STAARpipeline Tutorial**</a> repositories.
 
@@ -26,7 +24,7 @@ See https://github.com/xihaoli/STAARpipeline-Tutorial and https://github.com/rou
 
 ## Association analysis using STAARpipeline
 
-The association analyses included 21,734 participants from the non-CVD and CVD cohorts with available CAR phenotypes, WGS data, and covariates.
+The association analyses included 21,734 participants from the non-CVD and CVD cohorts with available multimodal cardiovascular phenotypes, WGS data, and covariates.
 
 ### Step 1: Fit the STAAR null model
 
@@ -36,7 +34,7 @@ The association analyses included 21,734 participants from the non-CVD and CVD c
 
 #### Output: An RData file containing the fitted STAAR null model.
 
-This script first adjusts CAR for age, age squared, sex, and the first 10 ancestry principal components. The residuals are then rank-based inverse normal transformed and rescaled. A linear mixed model is subsequently fitted using the sparse GRM.
+This script first adjusts CardioAG for age, age squared, sex, and the first 10 ancestry principal components. The residuals are then rank-based inverse normal transformed and rescaled. A linear mixed model is subsequently fitted using the sparse GRM.
 
 ### Step 2: Perform WGS association analyses
 
