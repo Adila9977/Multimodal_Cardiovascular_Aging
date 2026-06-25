@@ -1,5 +1,5 @@
 # The Main Cardiovascular Age Prediction Model Analysis
-This repository contains the best-performing model catboost hyperparameter search results,  code of prediction of cardiovascular age on the entrite Non-CVD cohort defined in the manuscript, age-bias correction steps, as well as statistical code for downstream association analysis of defined CardioAG (model predicted cardiovascular age - choronological age, post bias correction) with incodent CVD outcomes, and assoition of selected lifestyle factors with CardioAG.
+This repository contains the best-performing CatBoost model, including hyperparameter optimization results, code for cardiovascular age prediction in the full non-CVD cohort defined in the manuscript, age-bias correction procedures, and downstream statistical analyses of CardioAG (bias-corrected predicted cardiovascular age minus chronological age).
 
 ## Cardiovascular aging model prediction
 ### Step 1: Data Partitioning
