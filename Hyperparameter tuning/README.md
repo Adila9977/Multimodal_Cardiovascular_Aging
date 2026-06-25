@@ -24,13 +24,13 @@ Framework: Optuna (https://optuna.org/)
 
 Cross-validation: 10-fold
 
-model input: Mutimodal cardiovascular aging biomarkers
+Model input: Mutimodal cardiovascular aging biomarkers
 
 Optimization metric: Mean R² across validation folds
 
 Pruning: MedianPruner (early stopping of underperforming trials)
 
-trials: 200 trials for ML and 100 trials for DL models
+Trials: 200 trials for ML and 100 trials for DL models
 
 Output: Optimal hyperparameter set with best R² value
 
