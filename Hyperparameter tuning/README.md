@@ -18,8 +18,8 @@ Deep Neural Network (<a href="DNN_hyperparameter_tuning.py">**DNN_hyperparameter
 
 TabR (<a href="TabR_hyperparameter_tuning.py">**TabR_hyperparameter_tuning.py**</a>)
 
-Hyperparameter Optimization Framework
-General Setup
+## Hyperparameter Optimization Framework
+### General Setup
 Framework: Optuna (https://optuna.org/)
 Cross-validation: 10-fold 
 Optimization metric: Mean R² across validation folds
