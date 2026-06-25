@@ -20,7 +20,7 @@ To account for systematic age-dependent prediction bias, out-of-fold predictions
 
 ## Downstream Statistical Analysis of CardioAG
 ### Lifestyle Association Analysis
-Associations between lifestyle factors and CardioAG (CardioAG_corr in the code script) were evaluated using linear regression models in the Non-CVD cohort. Each lifestyle exposure was modeled separately, with CardioAG as the dependent variable.
+Associations between lifestyle factors and CardioAG were evaluated using linear regression models in the Non-CVD cohort. Each lifestyle exposure was modeled separately, with CardioAG as the dependent variable.
 
 ### Survival Analysis
 Cox proportional hazards regression was applied to evaluate the association between CardioAG and incident cardiovascular disease outcomes as defined in the manuscript. The proportional hazards assumption was assessed for all models using Schoenfeld residuals.
