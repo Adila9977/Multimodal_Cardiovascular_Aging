@@ -8,15 +8,15 @@ CatBoost (<a href="Catboost_hyperparameter_tuning.py">**Catboost_hyperparameter_
 
 ElasticNet regression (<a href="ElesticNet_hyperparameter_tuning.py">**ElesticNet_hyperparameter_tuning.py**</a>)
 
-Support Vector Regression (SVR, SVM_hyperparameter_tuning.py)
+Support Vector Regression (<a href="SVM_hyperparameter_tuning.py">**SVM_hyperparameter_tuning.py**</a>)
 
-LightGBM (LightGBM_hyperparameter_tuning.py)
+LightGBM (<a href="LightGBM_hyperparameter_tuning.py">**LightGBM_hyperparameter_tuning.py**</a>)
 
-XGBoost (XGBoost_hyperparameter_tuning.py)
+XGBoost (<a href="XGBoost_hyperparameter_tuning.py">**XGBoost_hyperparameter_tuning.py**</a>)
 
-Deep Neural Network (DNN, DNN_hyperparameter_tuning.py)
+Deep Neural Network (<a href="DNN_hyperparameter_tuning.py">**DNN_hyperparameter_tuning.py**</a>)
 
-Retrieval-Augmented Neural Network for Tabular Data (TabR, TabR_hyperparameter_tuning.py)
+TabR (<a href="TabR_hyperparameter_tuning.py">**TabR_hyperparameter_tuning.py**</a>)
 
 Hyperparameter Optimization Framework
 General Setup
