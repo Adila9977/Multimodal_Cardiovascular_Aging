@@ -35,11 +35,7 @@ To evaluate the added prognostic contribution of CardioAG, likelihood ratio test
 ## Statistical Software
 All analyses were conducted using R (version>= 4.3.2), including the following packages:
 
-survival
-
-lmtest
-
-dplyr
+survival, lmtest, dplyr
 
 
 
