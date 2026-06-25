@@ -54,3 +54,9 @@ xgboost
 torch
 
 pytorch-tabr
+
+
+## Data availability
+Individual-level UK Biobank data cannot be redistributed under the UK Biobank data-access policy. Researchers may apply directly to UK Biobank for access to the source data.
+
+The file paths in the scripts correspond to the original UK Biobank RAP project environment and must be updated before the scripts are used in another approved project.
