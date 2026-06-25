@@ -4,7 +4,7 @@ This repository contains the best-performing model catboost hyperparameter searc
 ## Cardiovascular aging model prediction
 ### Step 1: Data Partitioning
 
-The dataset was divided into a training cohort (Cheadle center) and an independent external test cohort (Reading and Newcastle centers). Individuals with missing  feature sets were excluded prior to analysis. (<a href="hyperparameter_search_results_catboost.csv">**hyperparameter_search_results_catboost.csv**</a>)
+The dataset was divided into a training cohort (Cheadle center) and an independent external test cohort (Reading and Newcastle centers). Individuals with missing  feature sets were excluded prior to analysis.
 
 ### Step 2: Model Specification and Hyperparameters
 A CatBoost regression model was used to predict chronological age based on multimodal cardiovascular features. Hyperparameters were selected from a previously performed optimization procedure with saved results (<a href="hyperparameter_search_results_catboost.csv">**hyperparameter_search_results_catboost.csv**</a>) and fixed for all subsequent analyses.
