@@ -29,7 +29,7 @@ Two hierarchical models were fitted:
 
 Model 1 (Unadjusted): CardioAG as the sole predictor.
 
-Model 2 (Adjusted): CardioAG additionally adjusted for chronological age, sex, body mass index (BMI), and diabetes mellitus.
+Model 2 (Adjusted): CardioAG additionally adjusted for chronological age, sex, body mass index, and diabetes mellitus.
 
 ### Incremental Prognostic Value of CardioAG
 To evaluate the added prognostic contribution of CardioAG, likelihood ratio tests were performed comparing nested Cox models. A base model including established risk factors (age, sex, BMI, diabetes) was compared against an extended model additionally incorporating CardioAG. This analysis was repeated using CardioAG derived from modality-specific biomarker subsets to assess the incremental predictive value of each modality or their combinations.
