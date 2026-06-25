@@ -33,11 +33,11 @@ Model 2 (Adjusted): CardioAG additionally adjusted for chronological age, sex, b
 To evaluate the added prognostic contribution of CardioAG, likelihood ratio tests were performed comparing nested Cox models. A base model including established risk factors (age, sex, BMI, diabetes) was compared against an extended model additionally incorporating CardioAG. This analysis was repeated using CardioAG derived from modality-specific biomarker subsets to assess the incremental predictive value of each modality or their combinations.
 
 ## Statistical Software
-All analyses were conducted using R (), including the following packages:
+All analyses were conducted using R (version>= 4.3.2), including the following packages:
 
-survival () for Cox regression modeling
-lmtest () for likelihood ratio tests
-dplyr () for data preprocessing
+survival
+lmtest
+dplyr
 
 
 
