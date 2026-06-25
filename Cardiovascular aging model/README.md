@@ -9,13 +9,13 @@ The dataset was divided into a training cohort (Cheadle center) and an independe
 ### Step 2: Model Specification and Hyperparameters
 A CatBoost regression model was used to predict chronological age based on multimodal cardiovascular features. Hyperparameters were selected from a previously performed optimization procedure with saved results (<a href="hyperparameter_search_results_catboost.csv">**hyperparameter_search_results_catboost.csv**</a>) and fixed for all subsequent analyses.
 
-## Step 3: Cross-Validation and Out-of-Fold Prediction
+### Step 3: Cross-Validation and Out-of-Fold Prediction
 A 10-fold cross-validation scheme was applied to the training cohort. In each fold, models were trained on 9 folds and validated on the remaining fold. Out-of-fold predictions were aggregated across all folds to obtain unbiased predictions for the entire training cohort, which were later used for age-bias estimation.
 
-## Step 4: Final Model Training and Validation
+### Step 4: Final Model Training and Validation
 The final model was retrained using the full training cohort and evaluated on the independent external test cohort, which remained completely unseen during model development. Model performance was evaluated using mean absolute error (MAE), coefficient of determination (R²), and Pearson correlation coefficient (r).
 
-## Step 5: Age-Bias Correction
+### Step 5: Age-Bias Correction
 To account for systematic age-dependent prediction bias, out-of-fold predictions obtained from 10-fold cross-validation on the training cohort were first used to compute prediction errors relative to chronological age (age gap). A linear Gaussian model was then fitted to characterize how these residual errors vary as a function of age. The estimated age-dependent bias component was subsequently applied to adjust model predictions across the full study cohort. The resulting bias-corrected prediction difference was defined as CardioAG.
 
 ## Lifestyle Association Analysis
