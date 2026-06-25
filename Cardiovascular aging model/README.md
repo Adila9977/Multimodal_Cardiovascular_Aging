@@ -28,6 +28,7 @@ Cox proportional hazards regression was applied to evaluate the association betw
 Two hierarchical models were fitted:
 
 Model 1 (Unadjusted): CardioAG as the sole predictor.
+
 Model 2 (Adjusted): CardioAG additionally adjusted for chronological age, sex, body mass index (BMI), and diabetes mellitus.
 
 ### Incremental Prognostic Value of CardioAG
