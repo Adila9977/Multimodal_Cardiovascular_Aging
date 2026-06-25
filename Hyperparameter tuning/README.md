@@ -31,7 +31,7 @@ Output: optimal hyperparameter set with best R² value
 ### Required environments
 Python (version >=3.10)
 
-Optuna
+optuna
 
 numpy
 
