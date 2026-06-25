@@ -21,13 +21,15 @@ TabR (<a href="TabR_hyperparameter_tuning.py">**TabR_hyperparameter_tuning.py**<
 ## Hyperparameter Optimization Framework
 ### General Setup
 Framework: Optuna (https://optuna.org/)
-Cross-validation: 10-fold 
+Cross-validation: 10-fold
+model input: mutimodal cardiovascular aging biomarkers ()
 Optimization metric: Mean R² across validation folds
 Pruning: MedianPruner (early stopping of underperforming trials)
 trials: 200 trials for ML and 100 trials for DL models
-Output: optimal hyperparameters set with best R² value
+Output: optimal hyperparameter set with best R² value
 
 Required environments
+Optuna (version)
 Python (version >=3.10)
 numpy
 pandas
