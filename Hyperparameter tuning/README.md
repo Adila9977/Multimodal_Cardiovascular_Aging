@@ -35,25 +35,25 @@ Trials: 200 trials for ML and 100 trials for DL models
 Output: Optimal hyperparameter set with best R² value
 
 ### Required environments
-Python (version 3.10)
+Python (version >= 3.10.0)
 
-optuna
+optuna (version >= 4.1.0)
 
-numpy
+numpy (version >= 1.26.0)
 
-pandas
+pandas (version >= 2.2.3)
 
-scikit-learn
+scikit-learn (version >= 1.5.2)
 
-catboost
+catboost (version >=  1.2.7)
 
-lightgbm
+lightgbm (version >= 4.6.0) 
 
-xgboost
+xgboost (version >= 2.1.2)
 
-torch
+torch (version >= 2.0.0)
 
-pytorch-tabr
+pytorch-tabr (version >= 0.1.0)
 
 
 ## Data availability
