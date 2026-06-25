@@ -4,7 +4,7 @@ This repository provides the complete implementation of hyperparameter optimizat
 
 The repository includes reproducible code for:
 
-CatBoost (<a href="/Catboost_hyperparameter_tuning.py">**Catboost_hyperparameter_tuning.py**</a>)
+CatBoost (<a href="Catboost_hyperparameter_tuning.py">**Catboost_hyperparameter_tuning.py**</a>)
 ElasticNet regression (ElesticNet_hyperparameter_tuning.py)
 Support Vector Regression (SVR, SVM_hyperparameter_tuning.py)
 LightGBM (LightGBM_hyperparameter_tuning.py)
