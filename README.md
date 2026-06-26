@@ -14,6 +14,11 @@ This repository provides the full cardiovascular age prediction pipeline , inclu
 ### 3. Whole-Genome Sequence Analysis of Coding and Noncoding Variants Associated with CardioAG
 This directory contains scripts for WGS analysis of coding and noncoding variants associated with CardioAG.
 
+## Data availability
+Individual-level UK Biobank data cannot be redistributed under the UK Biobank data-access policy. Researchers may apply directly to UK Biobank for access to the source data.
+
+The file paths in the scripts correspond to the original UK Biobank RAP project environment and must be updated before the scripts are used in another approved project.
+
 ## License
 Distributed under an MIT LICENSE license.
 
