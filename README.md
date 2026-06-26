@@ -1,6 +1,21 @@
 # Integrating Multimodal Data and Genomics for a Comprehensive Assessment of Cardiovascular Aging and Its Impact
 ## Abstract
 
-Recent advances in multimodal cardiovascular imaging and machine learning enable comprehensive characterization of cardiovascular aging. In this study, we integrated cardiac magnetic resonance imaging (CMR), electrocardiography (ECG), carotid ultrasound, and arterial stiffness measurements from the UK Biobank to derive a multimodal measure of cardiovascular age.
+Recent advances in multimodal cardiovascular imaging and machine learning enable comprehensive characterization of cardiovascular aging. In this study, we integrated cardiac magnetic resonance imaging (CMR), electrocardiography (ECG), carotid ultrasound, and arterial stiffness measurements from the UK Biobank to derive a multimodal cardiovascular age measure, evaluated its association with incident cardiovascular diseases (CVD), quantified the contribution of imaging and lifestyle factors to accelerated aging, and performed genome-wide analyses of whole-genome sequencing (WGS) data to identify novel genetic determinants of cardiovascular aging.
 
-We further examined the association between cardiovascular aging and incident cardiovascular disease (CVD) outcomes, and quantified the contribution of imaging biomarkers and lifestyle factors to accelerated cardiovascular aging. Finally, we conducted a functionally informed genome-wide analysis of whole-genome sequencing data (WGS) to identify common and rare genetic variants associated with cardiovascular aging.
+## Content
+
+### 1. Hyperparameter Tuning for Cardiovascular Age Prediction Models
+This repository implements hyperparameter optimization for machine learning and deep learning models used for cardiovascular age prediction, with the best-performing model selected for downstream analysis.
+
+### 2. The Main Cardiovascular Age Prediction Model Analysis
+This repository provides the full cardiovascular age prediction pipeline , including model training, external validation, age-bias correction, and downstream statistical analyses of CardioAG (bias-corrected cardiovascular age gap).
+
+### 3. Whole-Genome Sequence Analysis of Coding and Noncoding Variants Associated with CardioAG
+This directory contains scripts for WGS analysis of coding and noncoding variants associated with CardioAG.
+
+## License
+Distributed under an MIT LICENSE license.
+
+## Citation
+
