@@ -1,6 +1,6 @@
 # Whole-Genome Sequence Analysis of Coding and Noncoding Variants Associated with CardioAG
 
-This directory contains the scripts and selected results for the whole-genome sequence (WGS) analysis of cardiovascular age gap (CardioAG) described in the manuscript **Integrating Multimodal Data and Genomics for a Comprehensive Assessment of Cardiovascular Aging and Its Impact**.
+This directory contains the scripts and selected results for the whole-genome sequence (WGS) analysis of cardiovascular age gap (CardioAG) described in the manuscript.
 
 The software prerequisites, dependencies, and installation instructions can be found in the <a href="https://github.com/xihaoli/STAARpipeline">**STAARpipeline**</a>, <a href="https://github.com/xihaoli/STAARpipelineSummary">**STAARpipelineSummary**</a>, and <a href="https://github.com/li-lab-genetics/STAARpipeline-Tutorial">**STAARpipeline Tutorial**</a> repositories.
 
