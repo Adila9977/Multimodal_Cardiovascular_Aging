@@ -23,5 +23,3 @@ The file paths in the scripts correspond to the original UK Biobank RAP project 
 ## License
 Distributed under an MIT LICENSE license.
 
-## Citation
-
