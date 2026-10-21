@@ -1,4 +1,5 @@
 # Integrating Multimodal Data and Genomics for a Comprehensive Assessment of Cardiovascular Aging and Its Impact
+This work is published in Journal of Cardiovascular Magnetic Resonance (https://doi.org/10.1016/j.jocmr.2026.102783)
 ## Abstract
 
 Recent advances in multimodal cardiovascular imaging and machine learning have enabled comprehensive assessment of cardiovascular aging. In this study, we integrated cardiac magnetic resonance imaging (CMR), electrocardiography (ECG), carotid ultrasound, and arterial stiffness measures from the UK Biobank to develop a multimodal cardiovascular age metric. We investigated its association with incident cardiovascular diseases (CVDs), quantified the contributions of imaging-derived, non-imaging biomarkers and lifestyle factors to accelerated cardiovascular aging, and conducted whole-genome sequencing (WGS) analyses to identify novel genetic determinants of cardiovascular aging.
